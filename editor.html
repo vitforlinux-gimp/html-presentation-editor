@@ -269,39 +269,6 @@
     .tb-status.is-dirty { color: var(--accent); }
     .tb-status.is-saved { color: var(--fg-muted); }
 
-    /* === PREVIEW: collapse toolbar into a corner bubble === */
-    body:not(.is-editing) #editor-toolbar {
-      left: auto;
-      right: 16px;
-      transform: none;
-      width: 44px;
-      height: 44px;
-      padding: 0;
-      gap: 0;
-      justify-content: center;
-      overflow: hidden;
-      cursor: pointer;
-      transition: width var(--transition), height var(--transition), padding var(--transition), background var(--transition);
-    }
-    body:not(.is-editing) #editor-toolbar > * { display: none; }
-    body:not(.is-editing) #editor-toolbar::before {
-      content: "✎";
-      font-size: 18px;
-      line-height: 1;
-      color: var(--fg-muted);
-    }
-    body:not(.is-editing) #editor-toolbar:hover {
-      width: auto;
-      height: auto;
-      padding: 6px;
-      gap: 4px;
-      cursor: default;
-    }
-    body:not(.is-editing) #editor-toolbar:hover::before { display: none; }
-    body:not(.is-editing) #editor-toolbar:hover > .tb-btn { display: inline-flex; }
-    body:not(.is-editing) #editor-toolbar:hover > .tb-sep { display: block; }
-    body:not(.is-editing) #editor-toolbar:hover > .tb-status { display: inline-block; }
-
     .insert-button {
       position: relative;
       height: 36px;
@@ -569,14 +536,12 @@
 
     /* === PRINT === */
     @media print {
-      /* Zero page margin removes the browser's auto header/footer (date, URL, page #) */
-      @page { margin: 0; }
       [data-editor-ui], #editor-toolbar, #slide-indicator, #slide-nav, .insert-button, .block-controls, .modal-backdrop, #restore-banner {
         display: none !important;
       }
       body { background: #fff; color: #000; height: auto; overflow: visible; }
       body.mode-slides #content { height: auto; overflow: visible; }
-      #content { max-width: 100%; padding: 24px 32px; }
+      #content { max-width: 100%; padding: 0; }
       .block {
         page-break-inside: avoid;
         break-inside: avoid;
@@ -657,7 +622,7 @@
         <div data-edit>Right column. Each side is independently editable.</div>
       </section>`,
       'image-text': () => `<section class="block" data-block="image-text">
-        <img src="${PLACEHOLDER_IMG}" alt="Click to replace">
+        <img loading="lazy" src="${PLACEHOLDER_IMG}" alt="Click to replace">
         <div>
           <h3 data-edit>Block title</h3>
           <p data-edit>Describe what the image shows or use this space for a related thought.</p>
@@ -803,36 +768,46 @@ console.log(message);</pre>
     }
 
     /* === BLOCK OPS === */
-    const blockOps = {
-      up(block) {
-        const prev = block.previousElementSibling;
-        if (prev && prev.classList.contains('block')) {
-          block.parentNode.insertBefore(block, prev);
-          afterMutation();
-        }
-      },
-      down(block) {
-        const next = block.nextElementSibling;
-        if (next && next.classList.contains('block')) {
-          block.parentNode.insertBefore(next, block);
-          afterMutation();
-        }
-      },
-      duplicate(block) {
-        const clone = block.cloneNode(true);
-        clone.querySelectorAll('[data-editor-ui]').forEach(n => n.remove());
-        clone.querySelectorAll('[contenteditable]').forEach(n => n.removeAttribute('contenteditable'));
-        block.parentNode.insertBefore(clone, block.nextSibling);
-        afterMutation();
-      },
-      delete(block) {
-        const index = [...block.parentNode.children].indexOf(block);
-        state.undoStack.push({ type: 'delete', html: block.outerHTML, index });
-        block.remove();
-        afterMutation();
-        showUndoToast();
-      },
-    };
+const blockOps = {
+  up(block) {
+    const parent = block.parentElement;
+    const blocks = [...parent.children].filter(el => el.classList.contains('block'));
+    const index = blocks.indexOf(block);
+
+    if (index > 0) {
+      parent.insertBefore(block, blocks[index - 1]);
+      afterMutation();
+    }
+  },
+
+  down(block) {
+    const parent = block.parentElement;
+    const blocks = [...parent.children].filter(el => el.classList.contains('block'));
+    const index = blocks.indexOf(block);
+
+    if (index >= 0 && index < blocks.length - 1) {
+      parent.insertBefore(blocks[index + 1], block);
+      afterMutation();
+    }
+  },
+
+  duplicate(block) {
+    const clone = block.cloneNode(true);
+    clone.querySelectorAll('[data-editor-ui]').forEach(n => n.remove());
+    clone.querySelectorAll('[contenteditable]').forEach(n => n.removeAttribute('contenteditable'));
+    block.parentNode.insertBefore(clone, block.nextSibling);
+    afterMutation();
+  },
+
+  delete(block) {
+    const index = [...block.parentNode.children].indexOf(block);
+    state.undoStack.push({ type: 'delete', html: block.outerHTML, index });
+    block.remove();
+    afterMutation();
+    showUndoToast();
+  },
+};
+
 
     function afterMutation() {
       enableEdit();
