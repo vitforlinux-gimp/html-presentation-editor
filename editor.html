@@ -143,6 +143,22 @@
     }
     [data-block="image-text"] h3 { margin-bottom: 12px; }
     [data-block="image-text"] p { color: var(--fg-muted); }
+    
+    [data-block="image-big"] {
+      gap: 48px;
+      align-items: center;
+    }
+    [data-block="image-big"][data-flip="true"] { direction: rtl; }
+    [data-block="image-big"][data-flip="true"] > * { direction: ltr; }
+    [data-block="image-big"] img {
+      width: 80%;
+      aspect-ratio: 16/10;
+      object-fit: cover;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+      background: var(--surface);
+    }
+    [data-block="image-big"] p { color: var(--fg-muted); }
 
     [data-block="bullet-list"] h3 { margin-bottom: 20px; }
     [data-block="bullet-list"] ul {
@@ -644,6 +660,12 @@ body.mode-slides .block[data-block="image-text"] {
           <p data-edit>Describe what the image shows or use this space for a related thought.</p>
         </div>
       </section>`,
+      'image-big': () => `<section class="block" data-block="image-big">
+        <img loading="lazy" src="${PLACEHOLDER_IMG}" alt="Click to replace">
+        <div>
+          <p data-edit>Describe what the image shows or use this space for a related thought.</p>
+        </div>
+      </section>`,
       'bullet-list': () => `<section class="block" data-block="bullet-list">
         <h3 data-edit>List title</h3>
         <ul data-edit>
@@ -667,7 +689,8 @@ console.log(message);</pre>
       heading: { name: 'Heading', desc: 'Section break with lead', preview: 'H2 + lead' },
       text: { name: 'Text', desc: 'Paragraph block', preview: '— text —' },
       'two-col': { name: 'Two columns', desc: 'Side-by-side text', preview: '◧ ◨' },
-      'image-text': { name: 'Image + text', desc: 'Picture with caption', preview: '🖼 + text' },
+      'image-text': { name: 'Image + text', desc: 'Picture with H3 and caption', preview: '🖼 + text' },
+	'image-big': { name: 'Image + BIG', desc: 'BIG Picture with caption', preview: '🖼 + caption' },
       'bullet-list': { name: 'List', desc: 'Bulleted items', preview: '• • •' },
       quote: { name: 'Quote', desc: 'Pull quote with cite', preview: '“ ”' },
       code: { name: 'Code', desc: 'Monospace block', preview: '< / >' },
