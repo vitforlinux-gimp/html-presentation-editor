@@ -493,6 +493,22 @@
       justify-content: center;
       border: none;
     }
+    /* === SLIDES MODE two-col === */
+    
+    body.mode-slides .block[data-block="two-col"] {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 48px;
+}
+
+/* Image-text also uses a grid and is overwritten in the same way */
+body.mode-slides .block[data-block="image-text"] {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 48px;
+  align-items: center;
+}
+
     body.mode-slides .block-controls { right: 24px; top: 24px; }
     #slide-indicator {
       position: fixed;
