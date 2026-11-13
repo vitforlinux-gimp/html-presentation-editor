@@ -4,9 +4,8 @@ A self-contained HTML presentation editor. **One file. No build. No server.** Op
 
 ![Editor in light theme](screenshots/hero-light.png)
 
-**[Try it live →](https://itchernetski.github.io/html-presentation-editor/editor.html)** · **[Download v1.0.0](https://github.com/itchernetski/html-presentation-editor/releases/latest/download/editor.html)**
+**[Try it live →](https://itchernetski.github.io/html-presentation-editor/editor.html)** · **[Download v1.0.1](https://github.com/vitforlinux-gimp/html-presentation-editor/releases/tag/First-Release)**
 
-Inspired by [Gleb Kudryavtsev's "Тильда на минималках" post](https://t.me/gleb_pro_ai/558).
 
 ## Why
 
