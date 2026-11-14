@@ -26,7 +26,7 @@ This is a single HTML file that edits itself. The whole product is the file. The
 
 ## Quick start
 
-1. [Download `editor.html`](https://github.com/itchernetski/html-presentation-editor/releases/latest/download/editor.html) (or [grab the source](editor.html), or [try it live](https://itchernetski.github.io/html-presentation-editor/editor.html) without downloading).
+1. [Download `editor.html`](https://github.com/itchernetski/html-presentation-editor/releases/latest/download/editor.html) (or [grab the source](editor.html), or [try it live](https://vitforlinux-gimp.github.io/editor.html) without downloading).
 2. Open it in your browser.
 3. Click any text and type. `Cmd+S` to save.
 
