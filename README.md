@@ -86,15 +86,15 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 
 [MIT](LICENSE) — do whatever you want.
 
-## Things done and dreams
+# Things done and dreams
 
-# Done
+## Done
 - Fixed up and down slide
 - Fixed Image+Text
 - Fixed Two column slide
 - Added Image BIG slide
 
-# Dreams
+## Dreams
 - Add/remove/edit URL in paragraph
 - Bold text in paragraph
 - Italic text in paragraph
