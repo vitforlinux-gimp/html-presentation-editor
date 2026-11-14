@@ -16,7 +16,7 @@ This is a single HTML file that edits itself. The whole product is the file. The
 ## Features
 
 - **One file, zero dependencies.** ~42 KB of vanilla HTML/CSS/JS. No npm, no build, no server.
-- **8 block types.** Hero, heading, text, two-column, image+text, list, quote, code.
+- **9 block types.** Hero, heading, text, two-column, image+text,Image-BIG, list, quote, code.
 - **In-page editing.** Click any text. Hover any block to move, duplicate, or delete it.
 - **Two views.** Document mode (scroll) or Slides mode (full-screen, arrow-key nav).
 - **3 themes × 4 accent palettes.** Light, dark, sepia × default-blue, mono, warm, green.
@@ -86,7 +86,28 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 
 [MIT](LICENSE) — do whatever you want.
 
+## Things done and dreams
+
+# Done
+- Fixed up and down slide
+- Fixed Image+Text
+- Fixed Two column slide
+- Added Image BIG slide
+
+# Dreams
+- Add/remove/edit URL in paragraph
+- Bold text in paragraph
+- Italic text in paragraph
+- Inline code in paragraph
+- Background color for single slide
+- Background image for all slides
+- Background image for single slide
+- Disable editing/slides only javascript variable
+- Side navigation bar
+- Search in slides
+
 ## Credits
 
 - Idea by [@gleb_pro_ai (post 558)](https://t.me/gleb_pro_ai/558)
 - Built with [Claude Code](https://claude.com/claude-code) by Ilya Chernetskiy
+- Fix with [TGPT](https://github.com/aandrew-me/tgpt) hand, eyes, brain by Viforlinux
