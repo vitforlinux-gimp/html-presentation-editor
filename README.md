@@ -112,4 +112,4 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 
 - Idea by [@gleb_pro_ai (post 558)](https://t.me/gleb_pro_ai/558)
 - Built with [Claude Code](https://claude.com/claude-code) by Ilya Chernetskiy
-- Fix with [TGPT](https://github.com/aandrew-me/tgpt) hand, eyes, brain by Vitforlinux
+- Fix with [TGPT](https://github.com/aandrew-me/tgpt) , hand, eyes, brain by Vitforlinux
