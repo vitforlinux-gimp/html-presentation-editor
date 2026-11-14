@@ -91,6 +91,7 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 ## Done
 - Fixed up and down slide
 - Fixed Image+Text
+- Added Lazy loading for images
 - Fixed Two column slide
 - Added Image BIG slide
 - Update README after fork
