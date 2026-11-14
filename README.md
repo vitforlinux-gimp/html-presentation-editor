@@ -105,6 +105,7 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 - Disable editing/slides only javascript variable
 - Side navigation bar
 - Search in slides
+- Opacity in themes
 
 ## Credits
 
