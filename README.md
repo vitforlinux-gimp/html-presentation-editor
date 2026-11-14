@@ -93,6 +93,7 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 - Fixed Image+Text
 - Fixed Two column slide
 - Added Image BIG slide
+- Update README after fork
 
 ## Dreams
 - Add/remove/edit URL in paragraph
