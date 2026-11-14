@@ -95,9 +95,11 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 - Fixed Two column slide
 - Added Image BIG slide
 - Update README after fork
+- Fixed 98 JavaScript errors THANKS! [HTML Validator](https://addons.mozilla.org/en-US/firefox/addon/html-validator)
+- Add/remove URL in paragraph
 
 ## Dreams
-- Add/remove/edit URL in paragraph
+- ~~Add/remove/edit URL in paragraph~~
 - Bold text in paragraph
 - Italic text in paragraph
 - Inline code in paragraph
@@ -113,4 +115,4 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 
 - Idea by [@gleb_pro_ai (post 558)](https://t.me/gleb_pro_ai/558)
 - Built with [Claude Code](https://claude.com/claude-code) by Ilya Chernetskiy
-- Fix with [TGPT](https://github.com/aandrew-me/tgpt) , hand, eyes, brain by Vitforlinux
+- Fix/Update with [TGPT](https://github.com/aandrew-me/tgpt) , [HTML Validator](https://addons.mozilla.org/en-US/firefox/addon/html-validator), hand, eyes, brain by Vitforlinux
