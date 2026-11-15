@@ -9,7 +9,12 @@ A self-contained HTML presentation editor. **One file. No build. No server.** Op
 
 ## Why
 
-You wanted a beautiful doc. The agent gave you a PDF — pretty, but you can't edit it. Then HTML — you can edit, but only in the source. Google Docs, Notion, Tilda are overkill, lock you in, and require an account.
+You wanted a beautiful slide. They gave you a PDF: nice, but you can't edit it.
+Or HTML: you can edit it, but only in the source.
+
+This is an attempt to have both a slide and a simple editable HTML website.
+
+There are popular products, but they block and require an account... and sometimes annual payments.
 
 This is a single HTML file that edits itself. The whole product is the file. The file is the whole product.
 
