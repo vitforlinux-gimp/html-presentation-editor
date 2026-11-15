@@ -15,7 +15,7 @@ This is a single HTML file that edits itself. The whole product is the file. The
 
 ## Features
 
-- **One file, zero dependencies.** ~42 KB of vanilla HTML/CSS/JS. No npm, no build, no server.
+- **One file, zero dependencies.** ~52 KB of vanilla HTML/CSS/JS. No npm, no build, no server.
 - **9 block types.** Hero, heading, text, two-column, image+text,Image-BIG, list, quote, code.
 - **In-page editing.** Click any text. Hover any block to move, duplicate, or delete it.
 - **Two views.** Document mode (scroll) or Slides mode (full-screen, arrow-key nav).
@@ -97,12 +97,23 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 - Update README after fork
 - Fixed 98 JavaScript errors THANKS! [HTML Validator](https://addons.mozilla.org/en-US/firefox/addon/html-validator)
 - Add/remove URL in paragraph
-
-## Dreams
-- ~~Add/remove/edit URL in paragraph~~
 - Bold text in paragraph
 - Italic text in paragraph
 - Inline code in paragraph
+- Align left
+- Align center
+- Align right
+- Three svg buttons 
+- Remove formatting
+- Fixed other new JavaScript AI errors THANKS! [HTML Validator](https://addons.mozilla.org/en-US/firefox/addon/html-validator)
+- Translate in english italian alerts and labels (AI errors!)
+
+
+## Dreams
+- ~~Add/remove/edit URL in paragraph~~
+- ~~Bold text in paragraph~~
+- ~~Italic text in paragraph~~
+- ~~Inline code in paragraph~~
 - Background color for single slide
 - Background image for all slides
 - Background image for single slide
