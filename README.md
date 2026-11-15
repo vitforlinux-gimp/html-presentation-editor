@@ -12,7 +12,7 @@ A self-contained HTML presentation editor. **One file. No build. No server.** Op
 You wanted a beautiful slide. They gave you a PDF: nice, but you can't edit it.
 Or HTML: you can edit it, but only in the source.
 
-This is an attempt to have both a slide and a simple editable HTML website.
+This is an attempt to have both a slide and a simple no code editable HTML website.
 
 There are popular products, but they block and require an account... and sometimes annual payments.
 
