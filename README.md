@@ -4,7 +4,7 @@ A self-contained HTML presentation editor. **One file. No build. No server.** Op
 
 ![Editor in light theme](screenshots/hero-light.png)
 
-**[Try it live →](https://vitforlinux-gimp.github.io/editor.html)** · **[Download v1.0.2](https://github.com/vitforlinux-gimp/html-presentation-editor/releases)**
+**[Try it live →](https://vitforlinux-gimp.github.io/editor.html)** · **[Download v1.0.3](https://github.com/vitforlinux-gimp/html-presentation-editor/releases/latest)**
 
 
 ## Why
