@@ -2,7 +2,7 @@
 
 A self-contained HTML presentation editor. **One file. No build. No server.** Open it in your browser, click any text, type. Cmd+S writes back to the same file. Send the file to anyone — they can read it, or edit it the same way you did.
 
-![Editor in light theme](screenshots/hero-light.png)
+![Editor in light theme](screenshots/hero-light.jpg)
 
 **[Try it live →](https://vitforlinux-gimp.github.io/editor.html)** · **[Download v1.1.0](https://github.com/vitforlinux-gimp/html-presentation-editor/releases/latest)**
 
@@ -62,7 +62,7 @@ The saved file is a fully working editor — open it again to keep editing. Tool
 
 | Light | Dark | Sepia |
 |-------|------|-------|
-| ![Light](screenshots/hero-light.png) | ![Dark](screenshots/hero-dark.png) | ![Sepia](screenshots/hero-sepia.png) |
+| ![Light](screenshots/hero-light.jpg) | ![Dark](screenshots/hero-dark.png) | ![Sepia](screenshots/hero-sepia.png) |
 
 | Slides mode | Insert block picker | Hover controls |
 |-------------|---------------------|----------------|
