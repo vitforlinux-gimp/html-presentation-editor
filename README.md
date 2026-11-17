@@ -115,6 +115,11 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 - Added sidebar for formatting text tools (Better for Phones?)
 - Fixed sidebar in small screen
 - added two buttons in svg to sidebar (Link and Remove link)
+- Fixed svg errors  fill="currentColor" with (.tb-icon-btn svg {
+                                              fill: currentColor;
+                                              display: block; /* Evita spazi indesiderati sotto l'icona */
+                                              })
+
 
 
 ## Dreams
