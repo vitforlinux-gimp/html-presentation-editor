@@ -4,7 +4,7 @@ A self-contained HTML presentation editor. **One file. No build. No server.** Op
 
 ![Editor in light theme](screenshots/hero-light.jpg)
 
-**[Try it live →](https://vitforlinux-gimp.github.io/editor.html)** · **[Download v1.1.0](https://github.com/vitforlinux-gimp/html-presentation-editor/releases/latest)**
+**[Try it live →](https://vitforlinux-gimp.github.io/editor.html)** · **[Download v1.1.1](https://github.com/vitforlinux-gimp/html-presentation-editor/releases/latest)**
 
 
 ## Why
@@ -113,6 +113,7 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 - Fixed other new JavaScript AI errors THANKS! [HTML Validator](https://addons.mozilla.org/en-US/firefox/addon/html-validator)
 - Translate in english italian alerts and labels (AI errors!)
 - Added sidebar for formatting text tools (Better for Phones?)
+- Fixed sidebar in small screen
 
 
 ## Dreams
