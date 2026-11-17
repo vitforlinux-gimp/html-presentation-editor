@@ -117,8 +117,8 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 - added two buttons in svg to sidebar (Link and Remove link)
 - Fixed svg errors  fill="currentColor" with (.tb-icon-btn svg {
                                               fill: currentColor;
-                                              display: block; /* Evita spazi indesiderati sotto l'icona */
-                                              })
+                                              display: block; })
+- vediamo
 
 
 
