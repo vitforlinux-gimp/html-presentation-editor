@@ -114,6 +114,7 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 - Translate in english italian alerts and labels (AI errors!)
 - Added sidebar for formatting text tools (Better for Phones?)
 - Fixed sidebar in small screen
+- added two buttons in svg to sidebar (Link and Remove link)
 
 
 ## Dreams
@@ -121,6 +122,7 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 - ~~Bold text in paragraph~~
 - ~~Italic text in paragraph~~
 - ~~Inline code in paragraph~~
+- All buttons in svg
 - Background color for single slide
 - Background image for all slides
 - Background image for single slide
