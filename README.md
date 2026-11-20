@@ -118,7 +118,10 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 - Fixed svg errors  fill="currentColor" with (.tb-icon-btn svg {
                                               fill: currentColor;
                                               display: block; })
-- vediamo
+- Background color for single slide
+- Background image for all slides
+- Background image for single slide
+- Remove color & image from slide
 
 
 
@@ -128,9 +131,12 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 - ~~Italic text in paragraph~~
 - ~~Inline code in paragraph~~
 - All buttons in svg
-- Background color for single slide
-- Background image for all slides
-- Background image for single slide
+- ~~Background color for single slide~~
+- ~~Background image for all slides~~
+- ~~Background image for single slide~~
+- ~~Remove color & image~~
+- Better PDf
+- New sliedes compatibility with BG images & colors
 - Disable editing/slides only javascript variable
 - Side navigation bar
 - Search in slides
