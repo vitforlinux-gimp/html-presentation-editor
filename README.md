@@ -4,7 +4,7 @@ A self-contained HTML presentation editor. **One file. No build. No server.** Op
 
 ![Editor in light theme](screenshots/hero-light.jpg)
 
-**[Try it live →](https://vitforlinux-gimp.github.io/editor.html)** · **[Download v1.1.1](https://github.com/vitforlinux-gimp/html-presentation-editor/releases/latest)**
+**[Try it live →](https://vitforlinux-gimp.github.io/editor.html)** · **[Download v1.2.0](https://github.com/vitforlinux-gimp/html-presentation-editor/releases/latest)**
 
 
 ## Why
@@ -121,7 +121,7 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 - Background color for single slide
 - Background image for all slides
 - Background image for single slide
-- Remove color & image from slide
+- Remove color & image background from slide
 
 
 
