@@ -4,6 +4,8 @@ A self-contained HTML presentation editor. **One file. No build. No server.** Op
 
 ![Editor in light theme](screenshots/hero-light.jpg)
 
+![Editor in light theme with custom Background Color](screenshots/custom_bg_color.jpg)
+
 **[Try it live →](https://vitforlinux-gimp.github.io/editor.html)** · **[Download v1.2.0](https://github.com/vitforlinux-gimp/html-presentation-editor/releases/latest)**
 
 
@@ -122,6 +124,8 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 - Background image for all slides
 - Background image for single slide
 - Remove color & image background from slide
+- Better PDF
+- Better Css for Custom Background (need other revisions)
 
 
 
@@ -135,8 +139,8 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 - ~~Background image for all slides~~
 - ~~Background image for single slide~~
 - ~~Remove color & image~~
-- Better PDf
-- New sliedes compatibility with BG images & colors
+~~- Better PDf~~
+- New slides compatibility with BG images & colors
 - Disable editing/slides only javascript variable
 - Side navigation bar
 - Search in slides
