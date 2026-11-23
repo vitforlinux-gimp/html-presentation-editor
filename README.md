@@ -6,7 +6,7 @@ A self-contained HTML presentation editor. **One file. No build. No server.** Op
 
 ![Editor in light theme with custom Background Color](screenshots/custom_bg_color.jpg)
 
-**[Try it live →](https://vitforlinux-gimp.github.io/editor.html)** · **[Download v1.2.1](https://github.com/vitforlinux-gimp/html-presentation-editor/releases/latest)**
+**[Try it live →](https://vitforlinux-gimp.github.io/editor.html)** · **[Download v1.2.2](https://github.com/vitforlinux-gimp/html-presentation-editor/releases/latest)**
 
 
 ## Why
