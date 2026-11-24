@@ -6,7 +6,7 @@ A self-contained HTML presentation editor. **One file. No build. No server.** Op
 
 ![Editor in light theme with custom Background Color](screenshots/custom_bg_color.jpg)
 
-**[Try it live →](https://vitforlinux-gimp.github.io/editor.html)** · **[Download v1.2.2](https://github.com/vitforlinux-gimp/html-presentation-editor/releases/latest)**
+**[Try it live →](https://vitforlinux-gimp.github.io/editor.html)** · **[Download v1.2.3](https://github.com/vitforlinux-gimp/html-presentation-editor/releases/latest)**
 
 
 ## Why
@@ -126,6 +126,8 @@ Issues and PRs welcome. Keep it simple — the constraint is "one file, no depen
 - Remove color & image background from slide
 - Better PDF
 - Better Css for Custom Background (need other revisions)
+- added color and background text controls
+- little change in CSS 
 
 
 
